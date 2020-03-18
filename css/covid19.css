@@ -1,0 +1,227 @@
+html, body 
+	 {
+			 	padding: 0;
+			 	margin: 0;
+			 	font-family: ; 
+	background-image:url(image/graund.bmp);
+	background-position: center center;
+	background-size: 100; 
+	
+
+}
+header{background-color:green;
+	padding:25px;
+	margin:100px;
+	border: 3px dashed white;
+	border-radius: 100px;
+	opacity:0.4;
+	box-shadow:5px 3px 20px white;
+	width:300px;
+	height:30px;
+	font-size:25px;
+	font-weight:bold;
+	float:;
+	left:30%;
+	display: block;
+	position: absolute;
+
+
+}
+
+header:hover{
+	opacity:0.9;
+	border: 3px solid white;
+	box-shadow:5px 3px 200px white;
+	transform:scale(1.5);
+	transition:1s all;
+
+}
+.fixed-width
+{
+	width: 1260px;
+	margin: 0 auto; 
+	padding: 0 30px;
+	height: 100%;
+}
+.covid{
+	 
+	color:black;
+	 text-shadow: -1px 0 1px white, 0 -1px 1px white, 0 1px 1px gray, 1px 0 1px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 2px 2px 3px black;
+}
+#Text {
+	
+	opacity:0.9;
+	text-shadow:5px 3px 20px white;
+	padding:25px;
+	margin:35px;
+	font-size:25px;
+	font-weight:900;
+	display:block;
+	width: 5%;
+}
+.covid2{
+	color:white;
+}
+.covid2:hover
+{
+	font-size:40px;
+	transition:1s all;
+	color:;
+	transform:scale(1.5);
+}
+nav 
+		 	{
+		 		/*padding-top: 20px;*/
+		 		float:left;
+		 		height: 100%;
+		 		
+		 		align-items: center;
+
+		 	}
+
+}
+#Text:hover
+{
+	
+	/* background-image: url(image/...jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50; */
+	
+}
+#image{
+	content: url();
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 50%;
+}
+#top {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background: #fee;
+  }
+.stat {
+    position: fixed;
+    right: 10px;
+    top: 40px;
+   	
+	font-size:40px;
+
+ 
+  line-height: 40px;
+
+  background-color: #f5f5f5;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+   color: green;
+  }
+  .formi {
+	 position: fixed;
+    
+   	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 50%;
+	font-size:40px;
+
+ 
+  line-height: 40px;
+
+  background-color: #f5f5f5;
+  border: 1px solid #cccccc;
+  border-radius: 50px;
+   color: #618ad2;  
+  }
+  .table_formi
+    {
+table-layout:fixed;
+    }
+table{
+	/*display: none;*/
+}
+th {
+  font-size: 50px;
+  font-weight: normal;
+  background: black;
+  border-top: 4px solid #17A3D1;
+  border-bottom: 1px solid #fff;
+  color: white;
+  padding: 8px;
+}
+td {
+  background: #e8edff;
+  border-bottom: 1px solid #fff;
+  color: #669;
+  border-top: 1px solid transparent;
+  padding: 8px;
+}
+tr:hover td {background: #ccddff;}
+
+caption {
+	font-size: 60px;
+	font-weight: normal;
+	color: white;
+	padding: 8px;
+}	
+section {
+    display: flex;
+    margin-bottom: 10px;
+   }
+section > div { 
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 100px;
+    background: repeating-radial-gradient(circle at 50% 50%, #fff, #fff 25px, #f96 25px, #f96 50px);
+   }
+   .flex-start {
+    justify-content: flex-start;
+   }
+   .flex-end {
+    justify-content: flex-end;
+   }
+   .center {
+    justify-content: center;
+   }
+   .space-between {
+    justify-content: space-between;
+   }
+   .space-around {
+    justify-content: space-around;
+   }
+
+.podsvetka{
+	margin:10px;
+	font-size:30px;
+  color: white;
+  text-shadow: -1px 0 1px green, 0 -2px 2px green, 0 2px 2px green, 2px 0 2px green, 0 0 8px white, 0 0 8px white, 0 0 8px white, 2px 2px 3px black;
+}
+.podsvetka:hover {
+margin:10px;
+	font-size:30px;
+  color: green;
+  text-shadow: -1px 0 1px white, 0 -2px 2px white, 0 2px 2px white, 2px 0 2px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 2px 2px 3px black;
+}
+  
+
+
+
+
+
+
+.tabs {
+  float: left; /* Все вкладки располагаем в одну строку */
+  margin: 10px; /* Отступы вкладок друг от друга */
+}
+.content {
+  display: none; /* Скрываем содержимое */
+  padding-top: 100px; /* Чтобы название вкладки было ниже содержимого */
+  position: absolute; /* Чтобы содержимое не двигало элементы на странице */
+}
+.tabs:active .content {
+  display: block; /* Когда кликаем по вкладке, открываем содержимое content */
+}
+.content:hover {
+  display: block; /* Пока курсор наведён на контент, не закрываем его */
+}
